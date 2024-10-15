@@ -6,3 +6,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | --- | --- |
 | 2024-08-15 | docs: establish disclosed demo and project license (README.md, LICENSE, .gitignore) |
 | 2024-09-14 | build: configure Python package and test dependencies (backend/app/__init__.py, backend/pytest.ini, backend/requirements.txt) |
+| 2024-10-15 | build: configure frontend dependencies (frontend/package.json) |
