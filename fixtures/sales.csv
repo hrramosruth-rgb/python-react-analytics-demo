@@ -1,0 +1,7 @@
+order_id,date,product,quantity,unit_price_cents
+S-1001,2026-01-05,Design system,1,125000
+S-1002,2026-01-12,Analytics audit,2,45000
+S-1003,2026-02-04,Design system,1,125000
+S-1004,2026-02-18,API integration,3,60000
+S-1005,2026-03-03,Analytics audit,1,45000
+S-1006,2026-03-21,API integration,2,60000
