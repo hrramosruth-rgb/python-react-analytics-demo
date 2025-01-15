@@ -9,3 +9,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-10-15 | build: configure frontend dependencies (frontend/package.json) |
 | 2024-11-15 | feat: implement and verify domain (backend/app/domain.py, backend/tests/test_domain.py) |
 | 2024-12-15 | data: add sales demonstration fixture (fixtures/sales.csv) |
+| 2025-01-15 | feat: add or refine frontend/index.html (frontend/index.html) |
