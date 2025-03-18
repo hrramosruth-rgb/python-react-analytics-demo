@@ -11,3 +11,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2024-12-15 | data: add sales demonstration fixture (fixtures/sales.csv) |
 | 2025-01-15 | feat: add or refine frontend/index.html (frontend/index.html) |
 | 2025-02-15 | build: configure vite.config.js (frontend/vite.config.js) |
+| 2025-03-18 | feat: implement and verify main (backend/app/main.py, backend/tests/test_api.py) |
