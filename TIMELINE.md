@@ -7,3 +7,4 @@ Code created in October 2026. Dates below are illustrative, assigned to meaningf
 | 2024-08-15 | chore: scaffold disclosed analytics reconstruction |
 | 2024-10-17 | feat: validate fixture CSV and aggregate exact date-filtered revenue |
 | 2025-02-13 | feat: expose validated metrics API with explicit range errors |
+| 2025-06-19 | feat: add responsive revenue dashboard and accessible date filters |
