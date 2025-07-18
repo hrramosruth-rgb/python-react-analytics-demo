@@ -29,3 +29,12 @@ def test_rejects_invalid_csv(bad):
 
 def test_rejects_inverted_range():
     with pytest.raises(ValueError): metrics(load_sales(CSV), date(2026,2,1), date(2026,1,1))
+
+@pytest.mark.parametrize('bad',[CSV.replace('1999','9007199254740992'), CSV.replace('2,1999','100001,1999')])
+def test_bounds_keep_browser_currency_precise(bad):
+    with pytest.raises(ValueError): load_sales(bad)
+
+def test_total_cents_cannot_exceed_javascript_safe_integer():
+    text = 'order_id,date,product,quantity,unit_price_cents\n' + ''.join(
+        f'{index},2026-01-01,Design,100000,100000000\n' for index in range(901))
+    with pytest.raises(ValueError): load_sales(text)

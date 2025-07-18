@@ -15,3 +15,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2025-04-17 | feat: add or refine frontend/src/main.jsx (frontend/src/main.jsx) |
 | 2025-05-18 | style: add responsive style presentation (frontend/src/style.css) |
 | 2025-06-18 | build: configure frontend dependencies (frontend/package.json) |
+| 2025-07-18 | feat: implement and verify domain (backend/app/domain.py, backend/tests/test_domain.py) |
