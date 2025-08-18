@@ -16,3 +16,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2025-05-18 | style: add responsive style presentation (frontend/src/style.css) |
 | 2025-06-18 | build: configure frontend dependencies (frontend/package.json) |
 | 2025-07-18 | feat: implement and verify domain (backend/app/domain.py, backend/tests/test_domain.py) |
+| 2025-08-18 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
