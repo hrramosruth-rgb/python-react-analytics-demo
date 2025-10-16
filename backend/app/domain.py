@@ -18,6 +18,7 @@ def load_sales(text: str) -> tuple[Sale, ...]:
     if reader.fieldnames != expected:
         raise ValueError('CSV must contain: ' + ', '.join(expected))
     rows, seen = [], set()
+    total_cents = 0
     for line, raw in enumerate(reader, 2):
         try:
             if None in raw or any(value is None for value in raw.values()):
@@ -26,8 +27,11 @@ def load_sales(text: str) -> tuple[Sale, ...]:
             quantity, price = int(raw['quantity']), int(raw['unit_price_cents'])
             if not order_id or not product or order_id in seen:
                 raise ValueError('Order IDs must be unique and product names nonempty')
-            if quantity <= 0 or price < 0:
-                raise ValueError('Quantity must be positive and price nonnegative')
+            if not 1 <= quantity <= 100000 or not 0 <= price <= 100000000:
+                raise ValueError('Quantity must be 1–100,000 and price 0–100,000,000 cents')
+            total_cents += quantity * price
+            if total_cents > 9007199254740991:
+                raise ValueError('Dataset total exceeds exact browser currency range')
             rows.append(Sale(order_id, date.fromisoformat(raw['date']), product, quantity, price))
             seen.add(order_id)
         except (ValueError, TypeError) as error:
