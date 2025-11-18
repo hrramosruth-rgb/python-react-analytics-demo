@@ -19,3 +19,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2025-08-18 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
 | 2025-09-18 | docs: document setup and simulation limits (README.md) |
 | 2025-10-19 | build: configure frontend dependencies (frontend/package.json, frontend/package-lock.json) |
+| 2025-11-18 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
