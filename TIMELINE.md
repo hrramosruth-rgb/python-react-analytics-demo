@@ -21,3 +21,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2025-10-19 | build: configure frontend dependencies (frontend/package.json, frontend/package-lock.json) |
 | 2025-11-18 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
 | 2025-12-19 | build: configure requirements.lock.txt (backend/requirements.lock.txt) |
+| 2026-01-19 | docs: add dashboard.png (docs/dashboard.png) |
