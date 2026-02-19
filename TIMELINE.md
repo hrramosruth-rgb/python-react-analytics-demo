@@ -8,6 +8,6 @@ Code created in October 2026. Dates below are illustrative, assigned to meaningf
 | 2024-10-17 | feat: validate fixture CSV and aggregate exact date-filtered revenue |
 | 2025-02-13 | feat: expose validated metrics API with explicit range errors |
 | 2025-06-19 | feat: add responsive revenue dashboard and accessible date filters |
-| 2025-06-19 | feat: add responsive revenue dashboard and accessible date filters |
 | 2025-10-16 | test: bound currency inputs and add pinned CI verification |
 | 2026-02-19 | fix: restore locked builds and verify analytics interface |
+| 2026-02-19 | docs: remove duplicate recovered timeline milestone |
