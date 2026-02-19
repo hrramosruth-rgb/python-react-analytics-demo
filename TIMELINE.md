@@ -22,3 +22,4 @@ Code created in October 2026. This history was split into smaller commits in Oct
 | 2025-11-18 | ci: verify demo on GitHub Actions (.github/workflows/ci.yml) |
 | 2025-12-19 | build: configure requirements.lock.txt (backend/requirements.lock.txt) |
 | 2026-01-19 | docs: add dashboard.png (docs/dashboard.png) |
+| 2026-02-19 | docs: add verification.md (docs/verification.md) |
